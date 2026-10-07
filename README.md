@@ -133,4 +133,5 @@ Edit or copy these files to create your own burn-in experiment. Paths in configu
 
 ## License
 
-No license is included in this public-preparation package yet. Choose and add a license before publishing if you intend others to copy, modify, or redistribute the code.
+This project is licensed under the Apache License 2.0.
+See the `LICENSE` file for details
