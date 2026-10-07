@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "name": "evaluation_correction_fault",
+  "fixture": "../fixtures/sample_repo",
+  "scenario": "../scenarios/evaluation_correction_fault.json",
+  "output_root": "../results-extension",
+  "codex": {
+    "executable": "codex",
+    "model": null
+  },
+  "feedback": "none",
+  "limits": {
+    "max_episodes": 3,
+    "max_runtime_sec": 600,
+    "episode_timeout_sec": 120,
+    "oracle_timeout_sec": 15,
+    "max_consecutive_failures": 3,
+    "max_output_bytes_per_episode": 16777216,
+    "max_run_disk_bytes": 16777216,
+    "max_workspace_files": 10000
+  }
+}

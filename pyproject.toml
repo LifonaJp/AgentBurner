@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentburner"
+version = "0.1.0"
+description = "Experimental long-horizon reliability testing framework for Codex agents."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["jsonschema>=4.20"]
+
+[project.scripts]
+agentburner = "agentburner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentburner*"]
+namespaces = true

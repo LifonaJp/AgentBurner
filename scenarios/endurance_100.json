@@ -1,0 +1,3207 @@
+{
+  "schema_version": "1.0",
+  "id": "endurance_100",
+  "description": "異なる出力先と独立した有限作業で100 Episodeの継続能力を測定する。",
+  "episodes": [
+    {
+      "id": "ep001",
+      "purpose": "独立作業 001: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-001.md を新規作成し、見出しに burn-001 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-001.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_001",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-001.md"
+          ]
+        },
+        {
+          "id": "file_001",
+          "type": "required_paths",
+          "paths": [
+            "episode-001.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep002",
+      "purpose": "独立作業 002: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-002.md を新規作成し、見出しに burn-002 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-002.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_002",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-002.md"
+          ]
+        },
+        {
+          "id": "file_002",
+          "type": "required_paths",
+          "paths": [
+            "episode-002.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep003",
+      "purpose": "独立作業 003: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-003.md を新規作成し、見出しに burn-003 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-003.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_003",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-003.md"
+          ]
+        },
+        {
+          "id": "file_003",
+          "type": "required_paths",
+          "paths": [
+            "episode-003.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep004",
+      "purpose": "独立作業 004: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-004.md を新規作成し、見出しに burn-004 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-004.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_004",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-004.md"
+          ]
+        },
+        {
+          "id": "file_004",
+          "type": "required_paths",
+          "paths": [
+            "episode-004.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep005",
+      "purpose": "独立作業 005: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-005.md を新規作成し、見出しに burn-005 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-005.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_005",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-005.md"
+          ]
+        },
+        {
+          "id": "file_005",
+          "type": "required_paths",
+          "paths": [
+            "episode-005.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep006",
+      "purpose": "独立作業 006: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-006.md を新規作成し、見出しに burn-006 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-006.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_006",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-006.md"
+          ]
+        },
+        {
+          "id": "file_006",
+          "type": "required_paths",
+          "paths": [
+            "episode-006.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep007",
+      "purpose": "独立作業 007: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-007.md を新規作成し、見出しに burn-007 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-007.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_007",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-007.md"
+          ]
+        },
+        {
+          "id": "file_007",
+          "type": "required_paths",
+          "paths": [
+            "episode-007.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep008",
+      "purpose": "独立作業 008: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-008.md を新規作成し、見出しに burn-008 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-008.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_008",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-008.md"
+          ]
+        },
+        {
+          "id": "file_008",
+          "type": "required_paths",
+          "paths": [
+            "episode-008.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep009",
+      "purpose": "独立作業 009: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-009.md を新規作成し、見出しに burn-009 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-009.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_009",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-009.md"
+          ]
+        },
+        {
+          "id": "file_009",
+          "type": "required_paths",
+          "paths": [
+            "episode-009.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep010",
+      "purpose": "独立作業 010: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-010.md を新規作成し、見出しに burn-010 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-010.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_010",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-010.md"
+          ]
+        },
+        {
+          "id": "file_010",
+          "type": "required_paths",
+          "paths": [
+            "episode-010.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep011",
+      "purpose": "独立作業 011: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-011.md を新規作成し、見出しに burn-011 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-011.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_011",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-011.md"
+          ]
+        },
+        {
+          "id": "file_011",
+          "type": "required_paths",
+          "paths": [
+            "episode-011.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep012",
+      "purpose": "独立作業 012: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-012.md を新規作成し、見出しに burn-012 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-012.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_012",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-012.md"
+          ]
+        },
+        {
+          "id": "file_012",
+          "type": "required_paths",
+          "paths": [
+            "episode-012.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep013",
+      "purpose": "独立作業 013: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-013.md を新規作成し、見出しに burn-013 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-013.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_013",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-013.md"
+          ]
+        },
+        {
+          "id": "file_013",
+          "type": "required_paths",
+          "paths": [
+            "episode-013.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep014",
+      "purpose": "独立作業 014: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-014.md を新規作成し、見出しに burn-014 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-014.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_014",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-014.md"
+          ]
+        },
+        {
+          "id": "file_014",
+          "type": "required_paths",
+          "paths": [
+            "episode-014.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep015",
+      "purpose": "独立作業 015: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-015.md を新規作成し、見出しに burn-015 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-015.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_015",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-015.md"
+          ]
+        },
+        {
+          "id": "file_015",
+          "type": "required_paths",
+          "paths": [
+            "episode-015.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep016",
+      "purpose": "独立作業 016: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-016.md を新規作成し、見出しに burn-016 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-016.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_016",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-016.md"
+          ]
+        },
+        {
+          "id": "file_016",
+          "type": "required_paths",
+          "paths": [
+            "episode-016.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep017",
+      "purpose": "独立作業 017: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-017.md を新規作成し、見出しに burn-017 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-017.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_017",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-017.md"
+          ]
+        },
+        {
+          "id": "file_017",
+          "type": "required_paths",
+          "paths": [
+            "episode-017.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep018",
+      "purpose": "独立作業 018: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-018.md を新規作成し、見出しに burn-018 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-018.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_018",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-018.md"
+          ]
+        },
+        {
+          "id": "file_018",
+          "type": "required_paths",
+          "paths": [
+            "episode-018.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep019",
+      "purpose": "独立作業 019: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-019.md を新規作成し、見出しに burn-019 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-019.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_019",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-019.md"
+          ]
+        },
+        {
+          "id": "file_019",
+          "type": "required_paths",
+          "paths": [
+            "episode-019.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep020",
+      "purpose": "独立作業 020: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-020.md を新規作成し、見出しに burn-020 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-020.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_020",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-020.md"
+          ]
+        },
+        {
+          "id": "file_020",
+          "type": "required_paths",
+          "paths": [
+            "episode-020.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep021",
+      "purpose": "独立作業 021: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-021.md を新規作成し、見出しに burn-021 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-021.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_021",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-021.md"
+          ]
+        },
+        {
+          "id": "file_021",
+          "type": "required_paths",
+          "paths": [
+            "episode-021.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep022",
+      "purpose": "独立作業 022: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-022.md を新規作成し、見出しに burn-022 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-022.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_022",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-022.md"
+          ]
+        },
+        {
+          "id": "file_022",
+          "type": "required_paths",
+          "paths": [
+            "episode-022.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep023",
+      "purpose": "独立作業 023: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-023.md を新規作成し、見出しに burn-023 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-023.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_023",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-023.md"
+          ]
+        },
+        {
+          "id": "file_023",
+          "type": "required_paths",
+          "paths": [
+            "episode-023.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep024",
+      "purpose": "独立作業 024: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-024.md を新規作成し、見出しに burn-024 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-024.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_024",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-024.md"
+          ]
+        },
+        {
+          "id": "file_024",
+          "type": "required_paths",
+          "paths": [
+            "episode-024.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep025",
+      "purpose": "独立作業 025: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-025.md を新規作成し、見出しに burn-025 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-025.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_025",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-025.md"
+          ]
+        },
+        {
+          "id": "file_025",
+          "type": "required_paths",
+          "paths": [
+            "episode-025.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep026",
+      "purpose": "独立作業 026: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-026.md を新規作成し、見出しに burn-026 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-026.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_026",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-026.md"
+          ]
+        },
+        {
+          "id": "file_026",
+          "type": "required_paths",
+          "paths": [
+            "episode-026.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep027",
+      "purpose": "独立作業 027: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-027.md を新規作成し、見出しに burn-027 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-027.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_027",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-027.md"
+          ]
+        },
+        {
+          "id": "file_027",
+          "type": "required_paths",
+          "paths": [
+            "episode-027.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep028",
+      "purpose": "独立作業 028: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-028.md を新規作成し、見出しに burn-028 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-028.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_028",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-028.md"
+          ]
+        },
+        {
+          "id": "file_028",
+          "type": "required_paths",
+          "paths": [
+            "episode-028.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep029",
+      "purpose": "独立作業 029: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-029.md を新規作成し、見出しに burn-029 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-029.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_029",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-029.md"
+          ]
+        },
+        {
+          "id": "file_029",
+          "type": "required_paths",
+          "paths": [
+            "episode-029.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep030",
+      "purpose": "独立作業 030: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-030.md を新規作成し、見出しに burn-030 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-030.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_030",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-030.md"
+          ]
+        },
+        {
+          "id": "file_030",
+          "type": "required_paths",
+          "paths": [
+            "episode-030.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep031",
+      "purpose": "独立作業 031: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-031.md を新規作成し、見出しに burn-031 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-031.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_031",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-031.md"
+          ]
+        },
+        {
+          "id": "file_031",
+          "type": "required_paths",
+          "paths": [
+            "episode-031.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep032",
+      "purpose": "独立作業 032: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-032.md を新規作成し、見出しに burn-032 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-032.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_032",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-032.md"
+          ]
+        },
+        {
+          "id": "file_032",
+          "type": "required_paths",
+          "paths": [
+            "episode-032.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep033",
+      "purpose": "独立作業 033: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-033.md を新規作成し、見出しに burn-033 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-033.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_033",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-033.md"
+          ]
+        },
+        {
+          "id": "file_033",
+          "type": "required_paths",
+          "paths": [
+            "episode-033.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep034",
+      "purpose": "独立作業 034: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-034.md を新規作成し、見出しに burn-034 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-034.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_034",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-034.md"
+          ]
+        },
+        {
+          "id": "file_034",
+          "type": "required_paths",
+          "paths": [
+            "episode-034.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep035",
+      "purpose": "独立作業 035: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-035.md を新規作成し、見出しに burn-035 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-035.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_035",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-035.md"
+          ]
+        },
+        {
+          "id": "file_035",
+          "type": "required_paths",
+          "paths": [
+            "episode-035.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep036",
+      "purpose": "独立作業 036: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-036.md を新規作成し、見出しに burn-036 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-036.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_036",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-036.md"
+          ]
+        },
+        {
+          "id": "file_036",
+          "type": "required_paths",
+          "paths": [
+            "episode-036.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep037",
+      "purpose": "独立作業 037: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-037.md を新規作成し、見出しに burn-037 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-037.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_037",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-037.md"
+          ]
+        },
+        {
+          "id": "file_037",
+          "type": "required_paths",
+          "paths": [
+            "episode-037.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep038",
+      "purpose": "独立作業 038: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-038.md を新規作成し、見出しに burn-038 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-038.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_038",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-038.md"
+          ]
+        },
+        {
+          "id": "file_038",
+          "type": "required_paths",
+          "paths": [
+            "episode-038.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep039",
+      "purpose": "独立作業 039: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-039.md を新規作成し、見出しに burn-039 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-039.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_039",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-039.md"
+          ]
+        },
+        {
+          "id": "file_039",
+          "type": "required_paths",
+          "paths": [
+            "episode-039.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep040",
+      "purpose": "独立作業 040: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-040.md を新規作成し、見出しに burn-040 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-040.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_040",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-040.md"
+          ]
+        },
+        {
+          "id": "file_040",
+          "type": "required_paths",
+          "paths": [
+            "episode-040.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep041",
+      "purpose": "独立作業 041: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-041.md を新規作成し、見出しに burn-041 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-041.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_041",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-041.md"
+          ]
+        },
+        {
+          "id": "file_041",
+          "type": "required_paths",
+          "paths": [
+            "episode-041.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep042",
+      "purpose": "独立作業 042: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-042.md を新規作成し、見出しに burn-042 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-042.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_042",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-042.md"
+          ]
+        },
+        {
+          "id": "file_042",
+          "type": "required_paths",
+          "paths": [
+            "episode-042.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep043",
+      "purpose": "独立作業 043: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-043.md を新規作成し、見出しに burn-043 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-043.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_043",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-043.md"
+          ]
+        },
+        {
+          "id": "file_043",
+          "type": "required_paths",
+          "paths": [
+            "episode-043.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep044",
+      "purpose": "独立作業 044: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-044.md を新規作成し、見出しに burn-044 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-044.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_044",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-044.md"
+          ]
+        },
+        {
+          "id": "file_044",
+          "type": "required_paths",
+          "paths": [
+            "episode-044.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep045",
+      "purpose": "独立作業 045: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-045.md を新規作成し、見出しに burn-045 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-045.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_045",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-045.md"
+          ]
+        },
+        {
+          "id": "file_045",
+          "type": "required_paths",
+          "paths": [
+            "episode-045.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep046",
+      "purpose": "独立作業 046: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-046.md を新規作成し、見出しに burn-046 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-046.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_046",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-046.md"
+          ]
+        },
+        {
+          "id": "file_046",
+          "type": "required_paths",
+          "paths": [
+            "episode-046.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep047",
+      "purpose": "独立作業 047: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-047.md を新規作成し、見出しに burn-047 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-047.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_047",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-047.md"
+          ]
+        },
+        {
+          "id": "file_047",
+          "type": "required_paths",
+          "paths": [
+            "episode-047.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep048",
+      "purpose": "独立作業 048: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-048.md を新規作成し、見出しに burn-048 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-048.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_048",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-048.md"
+          ]
+        },
+        {
+          "id": "file_048",
+          "type": "required_paths",
+          "paths": [
+            "episode-048.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep049",
+      "purpose": "独立作業 049: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-049.md を新規作成し、見出しに burn-049 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-049.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_049",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-049.md"
+          ]
+        },
+        {
+          "id": "file_049",
+          "type": "required_paths",
+          "paths": [
+            "episode-049.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep050",
+      "purpose": "独立作業 050: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-050.md を新規作成し、見出しに burn-050 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-050.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_050",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-050.md"
+          ]
+        },
+        {
+          "id": "file_050",
+          "type": "required_paths",
+          "paths": [
+            "episode-050.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep051",
+      "purpose": "独立作業 051: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-051.md を新規作成し、見出しに burn-051 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-051.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_051",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-051.md"
+          ]
+        },
+        {
+          "id": "file_051",
+          "type": "required_paths",
+          "paths": [
+            "episode-051.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep052",
+      "purpose": "独立作業 052: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-052.md を新規作成し、見出しに burn-052 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-052.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_052",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-052.md"
+          ]
+        },
+        {
+          "id": "file_052",
+          "type": "required_paths",
+          "paths": [
+            "episode-052.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep053",
+      "purpose": "独立作業 053: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-053.md を新規作成し、見出しに burn-053 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-053.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_053",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-053.md"
+          ]
+        },
+        {
+          "id": "file_053",
+          "type": "required_paths",
+          "paths": [
+            "episode-053.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep054",
+      "purpose": "独立作業 054: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-054.md を新規作成し、見出しに burn-054 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-054.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_054",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-054.md"
+          ]
+        },
+        {
+          "id": "file_054",
+          "type": "required_paths",
+          "paths": [
+            "episode-054.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep055",
+      "purpose": "独立作業 055: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-055.md を新規作成し、見出しに burn-055 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-055.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_055",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-055.md"
+          ]
+        },
+        {
+          "id": "file_055",
+          "type": "required_paths",
+          "paths": [
+            "episode-055.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep056",
+      "purpose": "独立作業 056: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-056.md を新規作成し、見出しに burn-056 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-056.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_056",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-056.md"
+          ]
+        },
+        {
+          "id": "file_056",
+          "type": "required_paths",
+          "paths": [
+            "episode-056.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep057",
+      "purpose": "独立作業 057: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-057.md を新規作成し、見出しに burn-057 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-057.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_057",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-057.md"
+          ]
+        },
+        {
+          "id": "file_057",
+          "type": "required_paths",
+          "paths": [
+            "episode-057.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep058",
+      "purpose": "独立作業 058: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-058.md を新規作成し、見出しに burn-058 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-058.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_058",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-058.md"
+          ]
+        },
+        {
+          "id": "file_058",
+          "type": "required_paths",
+          "paths": [
+            "episode-058.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep059",
+      "purpose": "独立作業 059: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-059.md を新規作成し、見出しに burn-059 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-059.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_059",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-059.md"
+          ]
+        },
+        {
+          "id": "file_059",
+          "type": "required_paths",
+          "paths": [
+            "episode-059.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep060",
+      "purpose": "独立作業 060: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-060.md を新規作成し、見出しに burn-060 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-060.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_060",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-060.md"
+          ]
+        },
+        {
+          "id": "file_060",
+          "type": "required_paths",
+          "paths": [
+            "episode-060.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep061",
+      "purpose": "独立作業 061: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-061.md を新規作成し、見出しに burn-061 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-061.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_061",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-061.md"
+          ]
+        },
+        {
+          "id": "file_061",
+          "type": "required_paths",
+          "paths": [
+            "episode-061.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep062",
+      "purpose": "独立作業 062: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-062.md を新規作成し、見出しに burn-062 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-062.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_062",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-062.md"
+          ]
+        },
+        {
+          "id": "file_062",
+          "type": "required_paths",
+          "paths": [
+            "episode-062.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep063",
+      "purpose": "独立作業 063: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-063.md を新規作成し、見出しに burn-063 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-063.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_063",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-063.md"
+          ]
+        },
+        {
+          "id": "file_063",
+          "type": "required_paths",
+          "paths": [
+            "episode-063.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep064",
+      "purpose": "独立作業 064: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-064.md を新規作成し、見出しに burn-064 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-064.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_064",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-064.md"
+          ]
+        },
+        {
+          "id": "file_064",
+          "type": "required_paths",
+          "paths": [
+            "episode-064.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep065",
+      "purpose": "独立作業 065: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-065.md を新規作成し、見出しに burn-065 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-065.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_065",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-065.md"
+          ]
+        },
+        {
+          "id": "file_065",
+          "type": "required_paths",
+          "paths": [
+            "episode-065.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep066",
+      "purpose": "独立作業 066: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-066.md を新規作成し、見出しに burn-066 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-066.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_066",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-066.md"
+          ]
+        },
+        {
+          "id": "file_066",
+          "type": "required_paths",
+          "paths": [
+            "episode-066.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep067",
+      "purpose": "独立作業 067: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-067.md を新規作成し、見出しに burn-067 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-067.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_067",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-067.md"
+          ]
+        },
+        {
+          "id": "file_067",
+          "type": "required_paths",
+          "paths": [
+            "episode-067.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep068",
+      "purpose": "独立作業 068: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-068.md を新規作成し、見出しに burn-068 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-068.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_068",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-068.md"
+          ]
+        },
+        {
+          "id": "file_068",
+          "type": "required_paths",
+          "paths": [
+            "episode-068.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep069",
+      "purpose": "独立作業 069: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-069.md を新規作成し、見出しに burn-069 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-069.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_069",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-069.md"
+          ]
+        },
+        {
+          "id": "file_069",
+          "type": "required_paths",
+          "paths": [
+            "episode-069.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep070",
+      "purpose": "独立作業 070: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-070.md を新規作成し、見出しに burn-070 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-070.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_070",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-070.md"
+          ]
+        },
+        {
+          "id": "file_070",
+          "type": "required_paths",
+          "paths": [
+            "episode-070.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep071",
+      "purpose": "独立作業 071: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-071.md を新規作成し、見出しに burn-071 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-071.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_071",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-071.md"
+          ]
+        },
+        {
+          "id": "file_071",
+          "type": "required_paths",
+          "paths": [
+            "episode-071.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep072",
+      "purpose": "独立作業 072: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-072.md を新規作成し、見出しに burn-072 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-072.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_072",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-072.md"
+          ]
+        },
+        {
+          "id": "file_072",
+          "type": "required_paths",
+          "paths": [
+            "episode-072.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep073",
+      "purpose": "独立作業 073: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-073.md を新規作成し、見出しに burn-073 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-073.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_073",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-073.md"
+          ]
+        },
+        {
+          "id": "file_073",
+          "type": "required_paths",
+          "paths": [
+            "episode-073.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep074",
+      "purpose": "独立作業 074: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-074.md を新規作成し、見出しに burn-074 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-074.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_074",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-074.md"
+          ]
+        },
+        {
+          "id": "file_074",
+          "type": "required_paths",
+          "paths": [
+            "episode-074.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep075",
+      "purpose": "独立作業 075: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-075.md を新規作成し、見出しに burn-075 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-075.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_075",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-075.md"
+          ]
+        },
+        {
+          "id": "file_075",
+          "type": "required_paths",
+          "paths": [
+            "episode-075.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep076",
+      "purpose": "独立作業 076: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-076.md を新規作成し、見出しに burn-076 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-076.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_076",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-076.md"
+          ]
+        },
+        {
+          "id": "file_076",
+          "type": "required_paths",
+          "paths": [
+            "episode-076.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep077",
+      "purpose": "独立作業 077: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-077.md を新規作成し、見出しに burn-077 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-077.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_077",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-077.md"
+          ]
+        },
+        {
+          "id": "file_077",
+          "type": "required_paths",
+          "paths": [
+            "episode-077.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep078",
+      "purpose": "独立作業 078: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-078.md を新規作成し、見出しに burn-078 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-078.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_078",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-078.md"
+          ]
+        },
+        {
+          "id": "file_078",
+          "type": "required_paths",
+          "paths": [
+            "episode-078.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep079",
+      "purpose": "独立作業 079: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-079.md を新規作成し、見出しに burn-079 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-079.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_079",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-079.md"
+          ]
+        },
+        {
+          "id": "file_079",
+          "type": "required_paths",
+          "paths": [
+            "episode-079.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep080",
+      "purpose": "独立作業 080: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-080.md を新規作成し、見出しに burn-080 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-080.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_080",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-080.md"
+          ]
+        },
+        {
+          "id": "file_080",
+          "type": "required_paths",
+          "paths": [
+            "episode-080.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep081",
+      "purpose": "独立作業 081: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-081.md を新規作成し、見出しに burn-081 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-081.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_081",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-081.md"
+          ]
+        },
+        {
+          "id": "file_081",
+          "type": "required_paths",
+          "paths": [
+            "episode-081.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep082",
+      "purpose": "独立作業 082: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-082.md を新規作成し、見出しに burn-082 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-082.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_082",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-082.md"
+          ]
+        },
+        {
+          "id": "file_082",
+          "type": "required_paths",
+          "paths": [
+            "episode-082.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep083",
+      "purpose": "独立作業 083: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-083.md を新規作成し、見出しに burn-083 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-083.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_083",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-083.md"
+          ]
+        },
+        {
+          "id": "file_083",
+          "type": "required_paths",
+          "paths": [
+            "episode-083.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep084",
+      "purpose": "独立作業 084: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-084.md を新規作成し、見出しに burn-084 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-084.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_084",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-084.md"
+          ]
+        },
+        {
+          "id": "file_084",
+          "type": "required_paths",
+          "paths": [
+            "episode-084.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep085",
+      "purpose": "独立作業 085: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-085.md を新規作成し、見出しに burn-085 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-085.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_085",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-085.md"
+          ]
+        },
+        {
+          "id": "file_085",
+          "type": "required_paths",
+          "paths": [
+            "episode-085.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep086",
+      "purpose": "独立作業 086: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-086.md を新規作成し、見出しに burn-086 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-086.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_086",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-086.md"
+          ]
+        },
+        {
+          "id": "file_086",
+          "type": "required_paths",
+          "paths": [
+            "episode-086.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep087",
+      "purpose": "独立作業 087: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-087.md を新規作成し、見出しに burn-087 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-087.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_087",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-087.md"
+          ]
+        },
+        {
+          "id": "file_087",
+          "type": "required_paths",
+          "paths": [
+            "episode-087.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep088",
+      "purpose": "独立作業 088: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-088.md を新規作成し、見出しに burn-088 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-088.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_088",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-088.md"
+          ]
+        },
+        {
+          "id": "file_088",
+          "type": "required_paths",
+          "paths": [
+            "episode-088.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep089",
+      "purpose": "独立作業 089: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-089.md を新規作成し、見出しに burn-089 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-089.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_089",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-089.md"
+          ]
+        },
+        {
+          "id": "file_089",
+          "type": "required_paths",
+          "paths": [
+            "episode-089.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep090",
+      "purpose": "独立作業 090: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-090.md を新規作成し、見出しに burn-090 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-090.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_090",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-090.md"
+          ]
+        },
+        {
+          "id": "file_090",
+          "type": "required_paths",
+          "paths": [
+            "episode-090.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep091",
+      "purpose": "独立作業 091: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-091.md を新規作成し、見出しに burn-091 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-091.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_091",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-091.md"
+          ]
+        },
+        {
+          "id": "file_091",
+          "type": "required_paths",
+          "paths": [
+            "episode-091.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep092",
+      "purpose": "独立作業 092: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-092.md を新規作成し、見出しに burn-092 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-092.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_092",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-092.md"
+          ]
+        },
+        {
+          "id": "file_092",
+          "type": "required_paths",
+          "paths": [
+            "episode-092.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep093",
+      "purpose": "独立作業 093: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-093.md を新規作成し、見出しに burn-093 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-093.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_093",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-093.md"
+          ]
+        },
+        {
+          "id": "file_093",
+          "type": "required_paths",
+          "paths": [
+            "episode-093.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep094",
+      "purpose": "独立作業 094: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-094.md を新規作成し、見出しに burn-094 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-094.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_094",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-094.md"
+          ]
+        },
+        {
+          "id": "file_094",
+          "type": "required_paths",
+          "paths": [
+            "episode-094.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep095",
+      "purpose": "独立作業 095: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-095.md を新規作成し、見出しに burn-095 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-095.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_095",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-095.md"
+          ]
+        },
+        {
+          "id": "file_095",
+          "type": "required_paths",
+          "paths": [
+            "episode-095.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep096",
+      "purpose": "独立作業 096: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-096.md を新規作成し、見出しに burn-096 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-096.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_096",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-096.md"
+          ]
+        },
+        {
+          "id": "file_096",
+          "type": "required_paths",
+          "paths": [
+            "episode-096.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep097",
+      "purpose": "独立作業 097: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-097.md を新規作成し、見出しに burn-097 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-097.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_097",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-097.md"
+          ]
+        },
+        {
+          "id": "file_097",
+          "type": "required_paths",
+          "paths": [
+            "episode-097.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep098",
+      "purpose": "独立作業 098: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-098.md を新規作成し、見出しに burn-098 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-098.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_098",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-098.md"
+          ]
+        },
+        {
+          "id": "file_098",
+          "type": "required_paths",
+          "paths": [
+            "episode-098.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep099",
+      "purpose": "独立作業 099: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-099.md を新規作成し、見出しに burn-099 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-099.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_099",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-099.md"
+          ]
+        },
+        {
+          "id": "file_099",
+          "type": "required_paths",
+          "paths": [
+            "episode-099.md"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep100",
+      "purpose": "独立作業 100: 指定ラベルの運用メモを作成する",
+      "prompt": "episode-100.md を新規作成し、見出しに burn-100 と書き、その作業で確認すべきことを2項目まとめてください。変更してよいのは episode-100.md のみです。AGENTS.mdは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "agents_unchanged",
+          "type": "unchanged",
+          "paths": [
+            "AGENTS.md"
+          ],
+          "baseline": "run_start"
+        },
+        {
+          "id": "scope_100",
+          "type": "allowed_changes",
+          "paths": [
+            "episode-100.md"
+          ]
+        },
+        {
+          "id": "file_100",
+          "type": "required_paths",
+          "paths": [
+            "episode-100.md"
+          ]
+        }
+      ],
+      "review_points": []
+    }
+  ]
+}

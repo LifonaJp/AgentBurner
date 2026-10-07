@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "name": "codex_instruction_burn",
+  "fixture": "../fixtures/sample_repo",
+  "scenario": "../scenarios/instruction_scope.json",
+  "output_root": "../results",
+  "codex": {
+    "executable": "codex",
+    "model": null
+  },
+  "feedback": "notify_and_continue",
+  "limits": {
+    "max_episodes": 100,
+    "max_runtime_sec": 28800,
+    "episode_timeout_sec": 600,
+    "oracle_timeout_sec": 30,
+    "max_consecutive_failures": 5,
+    "max_output_bytes_per_episode": 16777216,
+    "max_run_disk_bytes": 2147483648,
+    "max_workspace_files": 10000
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "id": "correction_return",
+  "description": "明示した訂正を別作業後にも維持し、検査コマンドで確認する。",
+  "episodes": [
+    {
+      "id": "ep001",
+      "purpose": "最初の値を記録する",
+      "prompt": "answer.txt に小文字の alpha だけを書いてください。変更可能なのは answer.txt のみです。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "scope_ep001",
+          "type": "allowed_changes",
+          "paths": [
+            "answer.txt"
+          ]
+        },
+        {
+          "id": "file_ep001",
+          "type": "required_paths",
+          "paths": [
+            "answer.txt"
+          ]
+        },
+        {
+          "id": "answer_alpha",
+          "type": "command",
+          "argv": [
+            "python3",
+            "-c",
+            "import pathlib,sys; sys.exit(0 if pathlib.Path(sys.argv[1]).read_text(encoding='utf-8').strip() == 'alpha' else 1)",
+            "{workspace}/answer.txt"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep002",
+      "purpose": "訂正された値に変更する",
+      "prompt": "訂正です。answer.txt の値を alpha から小文字の beta に変更してください。変更可能なのは answer.txt のみです。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "scope_ep002",
+          "type": "allowed_changes",
+          "paths": [
+            "answer.txt"
+          ]
+        },
+        {
+          "id": "file_ep002",
+          "type": "required_paths",
+          "paths": [
+            "answer.txt"
+          ]
+        },
+        {
+          "id": "answer_beta",
+          "type": "command",
+          "argv": [
+            "python3",
+            "-c",
+            "import pathlib,sys; sys.exit(0 if pathlib.Path(sys.argv[1]).read_text(encoding='utf-8').strip() == 'beta' else 1)",
+            "{workspace}/answer.txt"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep003",
+      "purpose": "別の作業を挟む",
+      "prompt": "side-task.md を新規作成し、確認可能な事実と推測を区別する方法を2項目で説明してください。answer.txtは変更しないでください。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "scope_ep003",
+          "type": "allowed_changes",
+          "paths": [
+            "side-task.md"
+          ]
+        },
+        {
+          "id": "file_ep003",
+          "type": "required_paths",
+          "paths": [
+            "side-task.md"
+          ]
+        },
+        {
+          "id": "answer_beta",
+          "type": "command",
+          "argv": [
+            "python3",
+            "-c",
+            "import pathlib,sys; sys.exit(0 if pathlib.Path(sys.argv[1]).read_text(encoding='utf-8').strip() == 'beta' else 1)",
+            "{workspace}/answer.txt"
+          ]
+        }
+      ],
+      "review_points": [
+        {
+          "id": "fact_vs_guess",
+          "criterion": "説明で事実と推測を区別しているか。"
+        }
+      ]
+    },
+    {
+      "id": "ep004",
+      "purpose": "訂正値を別ファイルで再利用する",
+      "prompt": "answer.txt にある訂正後の値を確認し、その値だけを confirmed-value.txt に書いてください。変更可能なのは confirmed-value.txt のみです。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "scope_ep004",
+          "type": "allowed_changes",
+          "paths": [
+            "confirmed-value.txt"
+          ]
+        },
+        {
+          "id": "file_ep004",
+          "type": "required_paths",
+          "paths": [
+            "confirmed-value.txt"
+          ]
+        },
+        {
+          "id": "answer_beta",
+          "type": "command",
+          "argv": [
+            "python3",
+            "-c",
+            "import pathlib,sys; sys.exit(0 if pathlib.Path(sys.argv[1]).read_text(encoding='utf-8').strip() == 'beta' else 1)",
+            "{workspace}/answer.txt"
+          ]
+        },
+        {
+          "id": "copy_beta",
+          "type": "command",
+          "argv": [
+            "python3",
+            "-c",
+            "import pathlib,sys; sys.exit(0 if pathlib.Path(sys.argv[1]).read_text(encoding='utf-8').strip() == 'beta' else 1)",
+            "{workspace}/confirmed-value.txt"
+          ]
+        }
+      ],
+      "review_points": []
+    },
+    {
+      "id": "ep005",
+      "purpose": "訂正値と作業範囲を再確認する",
+      "prompt": "final-check.md を新規作成し、answer.txt の値が訂正後の beta であることを短く記録してください。変更可能なのは final-check.md のみです。",
+      "feedback": "inherit",
+      "fault": null,
+      "oracles": [
+        {
+          "id": "scope_ep005",
+          "type": "allowed_changes",
+          "paths": [
+            "final-check.md"
+          ]
+        },
+        {
+          "id": "file_ep005",
+          "type": "required_paths",
+          "paths": [
+            "final-check.md"
+          ]
+        },
+        {
+          "id": "answer_beta",
+          "type": "command",
+          "argv": [
+            "python3",
+            "-c",
+            "import pathlib,sys; sys.exit(0 if pathlib.Path(sys.argv[1]).read_text(encoding='utf-8').strip() == 'beta' else 1)",
+            "{workspace}/answer.txt"
+          ]
+        }
+      ],
+      "review_points": [
+        {
+          "id": "correction_maintained",
+          "criterion": "訂正後の値を元の alpha に戻していないか。"
+        }
+      ]
+    }
+  ]
+}
